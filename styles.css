@@ -1,0 +1,115 @@
+.row-centered {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn1 {
+    position: absolute;
+    top: 36%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    
+    text-align: center;
+    border-radius: 50px;
+    background-color: #3366ff
+}
+
+.container #link {
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    
+    font-size: 16px;
+    padding: 12px 24px;
+    
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+.container .btn2 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #3366ff
+}
+
+.container .btn1:hover {
+    background-color: rgb(134, 39, 39);
+
+}
+
+.container .btn1:hover ~ #img1 {
+    background-color: rgb(134, 39, 39);
+    opacity: 0.08;
+    
+}
+
+.container .btn2:hover {
+    background-color: rgb(134, 39, 39);
+}
+
+/* .opacityLight:hover {
+    opacity: 0.08;
+    transition-duration: 900ms;
+}
+
+.opacityLight {
+    opacity: 1;
+    transition-duration: 900ms;
+} */
+
+
+.opacityFull:hover {
+    opacity: 1;
+}
+
+.opacityZero:hover {
+    opacity: 0;
+}
+#testdiv2 {
+    display:none;
+    /* background-image: url('assets/images/car1.jpg'); */
+}
+#testdiv2 img {
+    opacity:.8;
+}
+
+#testdiv:hover #testdiv2 {
+ display:block;
+ transition-duration: 900ms;
+}
+
